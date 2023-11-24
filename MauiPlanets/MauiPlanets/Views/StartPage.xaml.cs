@@ -15,8 +15,14 @@ public partial class StartPage : ContentPage
 		{
 			return;
 		}
-
 		var parentAnimation = new Animation();
-		//Planet Animation
+
+		//Planets Animation
+
+
+		parentAnimation.Add(0.2, 0.4, new Animation(v => imgEarth.Opacity = v, 0, 1, Easing.CubicIn));
+
+		//Intro Box
+		parentAnimation.Commit(this, "TransitionAnimaation", 16, 3000, null, null);
 	}
 }
