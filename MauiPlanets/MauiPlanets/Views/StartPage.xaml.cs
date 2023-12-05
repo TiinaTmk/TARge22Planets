@@ -27,6 +27,11 @@ public partial class StartPage : ContentPage
         parentAnimation.Add(0.5, 0.7, new Animation(v => imgSaturn.Opacity = v, 0, 1, Easing.CubicIn));
         parentAnimation.Add(0.6, 0.8, new Animation(v => imgUranus.Opacity = v, 0, 1, Easing.CubicIn));
         parentAnimation.Add(0.7, 0.9, new Animation(v => imgNeptune.Opacity = v, 0, 1, Easing.CubicIn));
+        parentAnimation.Add(0.8, 0.10, new Animation(v => imgPluto.Opacity = v, 0, 1, Easing.CubicIn));
+        parentAnimation.Add(0.9, 0.11, new Animation(v => imgCeres.Opacity = v, 0, 1, Easing.CubicIn));
+        parentAnimation.Add(0.10, 0.12, new Animation(v => imgHaumea.Opacity = v, 0, 1, Easing.CubicIn));
+        parentAnimation.Add(0.11, 0.13, new Animation(v => imgMakeMake.Opacity = v, 0, 1, Easing.CubicIn));
+        parentAnimation.Add(0.12, 0.14, new Animation(v => imgEris.Opacity = v, 0, 1, Easing.CubicIn));
         //Intro Box
         parentAnimation.Add(0.7, 1, new Animation(v => imgIntro.Opacity = v, 0, 1, Easing.CubicIn));
 

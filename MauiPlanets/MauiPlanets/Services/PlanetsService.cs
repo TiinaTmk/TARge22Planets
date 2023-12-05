@@ -56,7 +56,7 @@ namespace MauiPlanets.Services
             new()
             {
                 Name = "Ceres",
-                Subtitle = "The dwarf planet",
+                Subtitle = "The dwarf planet Ceres",
                 HeroImage = "ceres.png",
                 Description = "Ceres is the largest object in the asteroid belt between " +
                 "Mars and Jupiter and the only dwarf planet located in the inner " +
@@ -66,15 +66,15 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#c5b59e"),
                 Images = new()
                 {
-                    "https://www.nasa.gov/sites/default/files/thumbnails/image/pia19063-main.jpg",
-                    "https://solarsystem.nasa.gov/system/news_items/main_images/1452_Ceres_Square_Dawn_DLR_Main_Dawn.png",
-                    "https://science.nasa.gov/_ipx/w_2048&f_webp/https://solarsystem.nasa.gov/system/news_items/main_images/9174_PIA23095-CeresAtOccatorCrater-Dawn-AHAMO-20180614.gif"
+                    "https://t3.ftcdn.net/jpg/02/71/65/66/240_F_271656664_Vgdjv5mqCxFesA1DtM4e8GUZmhSWNbti.jpg",
+                    "https://t4.ftcdn.net/jpg/00/80/43/55/240_F_80435515_9svCUogTzn9Wt1sjoMkcxheCFU9PVnJU.jpg",
+                    "https://t4.ftcdn.net/jpg/05/14/37/43/240_F_514374324_BC765PP2fEC1fQONTW0zhIFcSQdx2SEh.jpg"
                 }
             },
             new()
             {
                 Name = "Haumea",
-                Subtitle = "The dwarf planet",
+                Subtitle = "The dwarf planet Haumea",
                 HeroImage = "haumea.png",
                 Description = "Haumea is a dwarf planet located beyond Neptune " +
                 "in the scattered disc, a distant area of icy bodies that are " +
@@ -84,15 +84,14 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#c69e7b"),
                 Images = new()
                 {
-                    "https://smd-cms.nasa.gov/wp-content/uploads/2023/05/pia19968-charonmoon-jpg.webp?w=2048&format=webp",
-                    "https://smd-cms.nasa.gov/wp-content/uploads/2023/01/hubble-pluto-stsci-01evsrjcapn1afkxej1d7e1njd.png?w=2048&format=webp",
-                    "https://science.nasa.gov/_ipx/animated_true&w_2048&f_webp/https://images-assets.nasa.gov/image/PIA20544/PIA20544~orig.jpg%3Fw=855%26h=582%26fit=clip%26crop=faces%252Cfocalpoint"
-                }
+                    "https://t3.ftcdn.net/jpg/03/60/71/32/240_F_360713257_GGpXjLHfb7ygmMqufUDu4zM0tMlAjIqp.jpg",
+                    "https://static.wikia.nocookie.net/planet-archives/images/2/2d/Haumea.png/revision/latest?cb=20131012022005",
+                    "https://cdn.mos.cms.futurecdn.net/JMePZFEJNcVnNawYzrCv96.jpg" }
             },
             new()
             {
                 Name = "MakeMake",
-                Subtitle = "The dwarf planet",
+                Subtitle = "The dwarf planet MakeMake",
                 HeroImage = "makemake.png",
                 Description = "MakeMake is a dwarf planet and a member of the " +
                 "scattered disc, located in the outermost regions of our Solar " +
@@ -102,15 +101,15 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#a3a999"),
                 Images = new()
                 {
-                    "https://www.nasa.gov/sites/default/files/thumbnails/image/makemake_art.jpg",
-                    "https://solarsystem.nasa.gov/system/news_items/main_images/4704_PIA21064-FigureA-web.jpg",
-                    "https://science.nasa.gov/_ipx/w_2048&f_webp/https://solarsystem.nasa.gov/system/news_items/main_images/14216_MakeMake_web.jpg"
+                    "https://pbs.twimg.com/media/Ex2HVFTWQAAuRnO.jpg",
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROIUZOHcY6ifuZ01KlpSJ0XNvXV_jOhoQdfQ&usqp=CAU",
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNsq-bxiTmjhCCdT6xffaaDN1MgmuZqnj2UQ&usqp=CAU"
                 }
             },
             new()
             {
                 Name = "Eris",
-                Subtitle = "The dwarf planet",
+                Subtitle = "The dwarf planet Eris",
                 HeroImage = "eris.png",
                 Description = "Eris is a dwarf planet and a scattered disc object " +
                 "in the outermost regions of the Solar System. It was discovered " +
@@ -119,11 +118,11 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#99a5b5"),
                 Images = new()
                 {
-                    "https://www.nasa.gov/sites/default/files/thumbnails/image/eris_web.png",
-                    "https://solarsystem.nasa.gov/system/news_items/main_images/1828_PIA11141-web.jpg",
-                    "https://science.nasa.gov/_ipx/w_2048&f_webp/https://solarsystem.nasa.gov/system/news_items/main_images/2330_Eris_FigA-web.gif"
+                    "https://smd-cms.nasa.gov/wp-content/uploads/2023/06/Artists_c_oncept_of_Eris_and_Dysnomia_far_from_the_Sun-jpeg.webp?w=1280&format=webp",
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd5nzS0cinpnCDelIiKnorqzbGyXyck9KXiQ&usqp=CAU",
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuPZ5HEs_2XAVEvn621NphxRo6e13rEyrM-w&usqp=CAU"
                 }
-            } };
+            } } ;
 
         public static List<Planet> GetFeaturedPlanets()
         {
