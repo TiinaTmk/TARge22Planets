@@ -33,7 +33,29 @@ namespace MauiPlanets.Services
                     "https://solarsystem.nasa.gov/system/feature_items/images/73_carousel_mercury_2.jpg",
                     "https://science.nasa.gov/_ipx/w_2048&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/05/pia19422-mercury.jpg"
                 }
-            },
+
+
+           },
+            new ()
+            {
+                Name = "Earth",
+                Subtitle = "The home planet",
+                HeroImage = "earth.png",
+                Description = "Earth is the third planet from the Sun and the " +
+                "only astronomical object known to harbor life. About 29.2% of " +
+                "Earth's surface is land, and 70.8% is water. Its atmosphere " +
+                "contains oxygen, essential for life, and protects living " +
+                "organisms from harmful solar radiation.",
+                AccentColorStart = Color.FromArgb("#2a6f5e"),
+                AccentColorEnd = Color.FromArgb("#8fd8a0"),
+                Images = new List<string>
+                {
+                    "https://images.newscientist.com/wp-content/uploads/2019/09/09162708/iss048-e-2035_lrg.jpg?width=778",
+                    "https://solarsystem.nasa.gov/system/feature_items/images/69_earth_carousel_3.jpg",
+                    "https://solarsystem.nasa.gov/system/feature_items/images/68_epicearthmoonstill_800.png"
+
+                }
+                },
             new()
             {
                 Name = "Pluto",
@@ -48,9 +70,9 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#b3b8c1"),
                 Images = new()
                 {
-                    "https://science.nasa.gov/image-detail/pia19968-charonmoon/",
-                    "https://solarsystem.nasa.gov/system/news_items/main_images/2386_Clyde_Tombaugh_with_the_Telescope_3200.jpg",
-                    "https://science.nasa.gov/_ipx/w_2048&f_webp/https://solarsystem.nasa.gov/system/news_items/main_images/12597_PIA19936-FigureA_web.jpg"
+                    "https://science.nasa.gov/_ipx/animated_true&w_1280&f_webp/https://images-assets.nasa.gov/image/PIA20037/PIA20037~orig.jpg%3Fw=1041%26h=717%26fit=clip%26crop=faces%252Cfocalpoint",
+                    "https://smd-cms.nasa.gov/wp-content/uploads/2023/01/hubble-pluto-stsci-01evsrjcapn1afkxej1d7e1njd.png?w=1280&format=webp",
+                    "https://science.nasa.gov/_ipx/animated_true&w_1280&f_webp/https://images-assets.nasa.gov/image/PIA20544/PIA20544~orig.jpg%3Fw=855%26h=582%26fit=clip%26crop=faces%252Cfocalpoint"
                 }
          },
             new()
@@ -122,7 +144,9 @@ namespace MauiPlanets.Services
                     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd5nzS0cinpnCDelIiKnorqzbGyXyck9KXiQ&usqp=CAU",
                     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuPZ5HEs_2XAVEvn621NphxRo6e13rEyrM-w&usqp=CAU"
                 }
-            } } ;
+            } };
+
+
 
         public static List<Planet> GetFeaturedPlanets()
         {

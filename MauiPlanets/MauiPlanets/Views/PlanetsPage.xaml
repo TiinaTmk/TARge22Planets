@@ -45,26 +45,26 @@
             ColumnDefinitions="*, Auto"
             RowDefinitions="Auto,*">
 
-            <!--Header text-->
-            <VerticalStackLayout
+        <!--Header text-->
+        <VerticalStackLayout
                 Spacing="4"
                 Grid.Row="0"
                 Grid.Column="0"
                 VerticalOptions="Center">
 
-                <Label
+            <Label
                     Style="{StaticResource PageHeaderStyle}"
                     Text="Let's Explore" />
 
-                <Label
+            <Label
                     Style="{StaticResource PageHeaderSubtitleStyle}"
                     Text="The solar sysem" />
 
-            </VerticalStackLayout>
+        </VerticalStackLayout>
 
-            <!--Api pilt-->
+        <!--Api pilt-->
 
-            <Border
+        <Border
                 WidthRequest="56"
                 HeightRequest="56"
                 VerticalOptions="Center"
@@ -74,13 +74,13 @@
                 Grid.Row="0"
                 Grid.Column="1">
 
-                <Border.StrokeShape>
-                    <RoundRectangle CornerRadius="28" />
-                </Border.StrokeShape>
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="28" />
+            </Border.StrokeShape>
 
-                <Border.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="ApiPic_Clicked" />
-                </Border.GestureRecognizers>
+            <Border.GestureRecognizers>
+                <TapGestureRecognizer Tapped="ApiPic_Clicked" />
+            </Border.GestureRecognizers>
 
                 <Image
                         VerticalOptions="Center"
@@ -97,8 +97,8 @@
                     </Image.Clip>
                 </Image>
             </Border>
-
-            <!--main content scroll-->
+        
+        <!--main content scroll-->
 
             <ScrollView
                 Grid.Row="1"
@@ -110,7 +110,7 @@
 
                 <VerticalStackLayout
                     Spacing="12">
-
+                    
                     <!--Search Box-->
                     <Border
                         Padding="12,4"
@@ -207,11 +207,11 @@
                                             Text="{Binding Subtitle}"/>
 
                                     </Grid>
-
+                                    
                                 </Border>
                             </DataTemplate>
                         </CollectionView.ItemTemplate>
-
+                        
                     </CollectionView>
 
                     <Label
@@ -276,7 +276,7 @@
                     </CollectionView>
 
                 </VerticalStackLayout>
-
+                
             </ScrollView>
 
             <Border
@@ -344,11 +344,11 @@
                         Style="{StaticResource MenuLabelStyle}" />
 
                 </Grid>
-
+                
             </Border>
-
+            
         </Grid>
-
+        
     </Grid>
 
 </ContentPage>

@@ -5,10 +5,10 @@ namespace MauiPlanets.Views;
 
 public partial class PlanetsPage : ContentPage
 {
-    public PlanetsPage()
-    {
-        InitializeComponent();
-    }
+	public PlanetsPage()
+	{
+		InitializeComponent();
+	}
 
     protected override void OnAppearing()
     {
@@ -19,9 +19,9 @@ public partial class PlanetsPage : ContentPage
     }
 
     async void ApiPic_Clicked(System.Object sender, System.EventArgs e)
-    {
+	{
 
-    }
+	}
 
     async void GridArea_Tapped(System.Object sender, System.EventArgs e)
     {
@@ -29,7 +29,7 @@ public partial class PlanetsPage : ContentPage
     }
 
     async void Planets_SelectionChanged(object sender, SelectionChangedEventArgs e)
-    {
-        await Navigation.PushAsync(new PlanetDetailsPage(e.CurrentSelection.First() as Planet));
+	{
+		await Navigation.PushAsync(new PlanetDetailsPage(e.CurrentSelection.First() as Planet));
     }
 }
